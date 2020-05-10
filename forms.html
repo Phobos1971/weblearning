@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="page/site description">
+	<meta name="keywords" content="HTML, CSS, XML, Javascrip (keywords for search engines">
+	<meta name="author" content="Ernesto Caraballo">
+	<meta http-equiv="refresh" content="30"> <!--Refresh page every 30 secs -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<script type="text/javascript">
+		
+
+	</script>
+
+	<base href="https://www.w3schools.com/images/" target="_blank"><!--Base URL and base target for all relative URLs in a page -->
+
+	<link rel="stylesheet" type="text/css" href="">
+
+	<style type="text/css">
+		
+	</style>
+
+	<title></title>
+</head>
+<body>
+<h1>This is a Form</h1>
+<form action="/action_page.php" target="_blank">
+  <p>Please, let us help you filling out the simple form</p>
+  <label for="fname">First name:</label><input type="text" id="fname" name="fname"><br />
+  <label for="lname">Last name:</label><input type="text" id="lname" name="lname"><br />
+  Do you like pets? 
+  <laber for="yes">Yes</laber><input type="radio" id="yes"name="pets" value="yes"> 
+  <label for="no">No</label><input type="radio" id="no" name="pets" value="no"><br><br>
+  Please, check you favoritos...jeje
+  <select id="pets" name="pets" size="5" multiple="">
+  	<option value="none">None</option>
+  	<option value="cats">Cats</option>
+  	<option value="dogs">Dogs</option>
+  	<option value="parrots">Parrots</option>
+  	<option value="all" selected="">All</option>
+  </select><br>
+  <label for="descripcion">Agrega una breve descripcion:</label><br><textarea name="descripcion" rows="4" cols="50">Escribe acá</textarea><br>
+  <input type="submit" name="submit">
+</form>
+<br>
+<p>This is another form</p>
+<form action="/action_page.php" name="personalia" id="personalia" method="POST">
+	<fieldset>
+		<legend>Personalia:</legend>
+		<label for="fname">First name:</label>
+		<input type="text" name="fname" id="fname"><br>
+		<label for="lname">Last name:</label>
+		<input type="lname" name="lname" id="lname">
+		<input type="submit" name="submit">
+	</fieldset>
+</form>
+<form action="/action_page.php">
+  <input list="browsers">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+</form>
+</body>
+</html>

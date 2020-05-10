@@ -1,0 +1,75 @@
+.container {
+  position: relative;
+}
+
+img {
+  width: 50%;
+  height: auto;
+  opacity: 0.3;
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  left: 16px;
+  bottom: 8px;
+}
+
+.bottomright {
+  position: absolute;
+  right: 16px;
+  bottom: 8px;
+}
+.centercenter {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+}
+.parag {
+  /* overflow-y: scroll;
+    overflow-x: scroll; */
+  overflow: scroll;
+  width: 500px;
+  height: 150px;
+}
+#pinneapple {
+  float: left;
+  width: 20%;
+  height: auto;
+  padding: 3px;
+  opacity: 0.3;
+}
+#pinneapple:hover {
+    opacity: 1.0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
